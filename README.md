@@ -18,16 +18,22 @@
 
 ## 安装说明
 
-1. 停止服务器（如果正在运行）
-2. 将更新包中的文件复制到对应目录中
-3. 重启服务器
+1. **停止服务器**（如果正在运行）：
+   - 打开运行服务器的命令行窗口
+   - 按 `Ctrl + C` 停止服务器
 
-```bash
-# 停止服务器（按 Ctrl+C）
-# 复制文件
-# 重启服务器
-node server.js
-```
+2. **复制文件**：
+   - 将更新包中的文件复制到对应目录中
+   - `public/login.html` → `项目根目录/public/login.html`
+   - `skills/login/login-skill.ts` → `项目根目录/skills/login/login-skill.ts`
+   - `server.js` → `项目根目录/server.js`
+
+3. **重启服务器**：
+   - 在项目根目录执行：
+   ```bash
+   node server.js
+   ```
+   - 服务器将在 http://localhost:3000 启动
 
 ## 使用说明
 
